@@ -1,0 +1,6 @@
+1.block 태그는 블록처럼 위 아래로 쌓이는 태그이며 margin padding과 너비,높이 적용 가능하다. inline은 한 줄에 같이 정렬되는 태그이며 margin padding은 좌우만 너비,높이는 적용이 불가능하다. inline-block은 block 태그처럼 margin padding 모두 적용 가능 너비,높이가 적용 가능한 형식으로 만들어준 후 inline 태그처럼 한 줄로 정렬되게 도와준다.
+2.
+위 margin에 10px 좌우 margin에 20px 아래 margin에 30px 설정 
+3.사용자들에게 보이는 화면을 말한다.
+4. relative는 원래 처음 자기가 생성된 자리에서부터 이동하는 것. absolute는 relative를 가진 부모 태그를 기준으로 이동한다(부모 태그가 없을 경우 html 태그 뷰포트를 기준으로 이동)
+5. div1은 box-sizing이 boredr-box로 설정해놔 border 영역까지 포함 해 300px의 width로 설정되어있다. div는 반면에 padding 50px width 300px로 width가 350으로 설정되어 있어서 div1보다 더 큰 borer라인이 생성된다.

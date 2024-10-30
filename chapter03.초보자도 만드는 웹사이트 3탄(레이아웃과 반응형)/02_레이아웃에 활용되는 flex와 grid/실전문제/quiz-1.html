@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         * {
+            margin: 0;
+            padding: 0;
+         }
+
+         a {
+            color: black;
+            text-decoration: none;
+         }
+
+         li {
+            list-style: none;
+         }
+
+         .wrap {
+            width: 1024px;
+            max-width: 1024px;
+            margin: 0 auto;
+         }
+
+         .menu {
+            margin: 30px 0;
+         }
+
+         .menu > .menu_sub {
+            display: flex;
+         }
+
+         .menu > .menu_sub > h2,
+         .menu > .menu_sub > div {
+            width: 50%;
+         }
+
+         .menu > .menu_sub > div {
+            text-align: right;
+            padding-right: 10px;
+         }
+
+         .toon_img1 {
+            height: 250px;
+            width: 300px;
+            background: #000 url(images/webtoon1.png) center;
+         }
+
+         .toon_img2 {
+            height: 250px;
+            width: 300px;
+            background: blanchedalmond url(images/webtoon2.png) center;
+         }
+
+         .toon_img3 {
+            height: 250px;
+            width: 300px;
+            background: brown url(images/webtoon3.png) center;
+         }
+         /* 이미지 배경색,사진 코드 */
+
+         .new_sub .toon_img1,
+         .toon_img2,
+         .toon_img3 {
+            border: 1px transparent;
+            border-radius: 5px;
+         }
+         /* 보더라인 설정 */
+
+         .new_sub {
+            margin-right: 5px;
+         }
+         .text {
+            padding: auto 1.5px;
+         }
+
+         .new {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .new li {
+            max-width: 100%;
+            height: auto;
+         }
+         /* 이미지 비율  */
+
+         .new_sub {
+            margin-right: 5px;
+            /* item 요소 사이 공백 */
+         }
+
+         .text {
+            padding: auto 1.5px;
+         }
+         /* 텍스트 사이 공백 */
+      </style>
+   </head>
+   <body>
+      <div class="wrap">
+         <div class="menu">
+            <div class="menu_sub">
+               <h2>이달의 신규 웹툰</h2>
+               <div>
+                  <a href="#"> 신작웹툰 더보기 </a>
+               </div>
+            </div>
+         </div>
+         <ul class="new">
+            <li class="new_sub">
+               <div class="toon_img1"></div>
+               <div class="text">
+                  <h3><a href="#">웹툰제목</a></h3>
+                  <a href="#">작가명</a>
+                  <p>줄거리</p>
+               </div>
+            </li>
+
+            <li class="new_sub">
+               <div class="toon_img2">
+                  <a href=""></a>
+               </div>
+               <div class="text">
+                  <h3><a href="#">웹툰제목</a></h3>
+                  <a href="#">작가명</a>
+                  <p>줄거리</p>
+               </div>
+            </li>
+
+            <li class="new_sub">
+               <div class="toon_img3">
+                  <a href=""></a>
+               </div>
+               <div class="text">
+                  <h3><a href="#">웹툰제목</a></h3>
+                  <a href="#">작가명</a>
+                  <p>줄거리</p>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </body>
+</html>
